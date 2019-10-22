@@ -1,0 +1,1195 @@
+successorGameState : %%%%%
+% . %
+%.G.%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+%< .%
+%%%%%
+Score: -1
+
+newPos : (1, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (2, 7)
+newScaredTimes : [0]
+successorGameState.getScore() : -1.0
+successorGameState : %%%%%
+% . %
+%.G.%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+% <.%
+%%%%%
+Score: -1
+
+newPos : (2, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (2, 7)
+newScaredTimes : [0]
+successorGameState.getScore() : -1.0
+successorGameState : %%%%%
+% . %
+%.G.%
+% . %
+%. .%
+%   %
+%  .%
+%v  %
+%  .%
+%%%%%
+Score: -1
+
+newPos : (1, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (2, 7)
+newScaredTimes : [0]
+successorGameState.getScore() : -1.0
+successorGameState : %%%%%
+% . %
+%. G%
+% . %
+%. .%
+%   %
+%  .%
+%v  %
+%  .%
+%%%%%
+Score: -2
+
+newPos : (1, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (3.0, 7.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -2.0
+successorGameState : %%%%%
+% . %
+%. G%
+% . %
+%. .%
+%   %
+%  .%
+% < %
+%  .%
+%%%%%
+Score: -2
+
+newPos : (2, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (3.0, 7.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -2.0
+successorGameState : %%%%%
+% . %
+%. G%
+% . %
+%. .%
+%   %
+%v .%
+%   %
+%  .%
+%%%%%
+Score: -2
+
+newPos : (1, 3)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (3.0, 7.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -2.0
+successorGameState : %%%%%
+% . %
+%. G%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+%^ .%
+%%%%%
+Score: -2
+
+newPos : (1, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (3.0, 7.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -2.0
+successorGameState : %%%%%
+% .G%
+%. .%
+% . %
+%. .%
+%   %
+%  .%
+%v  %
+%  .%
+%%%%%
+Score: -3
+
+newPos : (1, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (3.0, 8.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -3.0
+successorGameState : %%%%%
+% .G%
+%. .%
+% . %
+%. .%
+%   %
+%  .%
+% < %
+%  .%
+%%%%%
+Score: -3
+
+newPos : (2, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (3.0, 8.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -3.0
+successorGameState : %%%%%
+% .G%
+%. .%
+% . %
+%. .%
+%   %
+%v .%
+%   %
+%  .%
+%%%%%
+Score: -3
+
+newPos : (1, 3)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (3.0, 8.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -3.0
+successorGameState : %%%%%
+% .G%
+%. .%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+%^ .%
+%%%%%
+Score: -3
+
+newPos : (1, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (3.0, 8.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -3.0
+successorGameState : %%%%%
+% G %
+%. .%
+% . %
+%. .%
+%   %
+%  .%
+%v  %
+%  .%
+%%%%%
+Score: -4
+
+newPos : (1, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (2.0, 8.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -4.0
+successorGameState : %%%%%
+% G %
+%. .%
+% . %
+%. .%
+%   %
+%  .%
+% < %
+%  .%
+%%%%%
+Score: -4
+
+newPos : (2, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (2.0, 8.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -4.0
+successorGameState : %%%%%
+% G %
+%. .%
+% . %
+%. .%
+%   %
+%v .%
+%   %
+%  .%
+%%%%%
+Score: -4
+
+newPos : (1, 3)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (2.0, 8.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -4.0
+successorGameState : %%%%%
+% G %
+%. .%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+%^ .%
+%%%%%
+Score: -4
+
+newPos : (1, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (2.0, 8.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -4.0
+successorGameState : %%%%%
+%G. %
+%. .%
+% . %
+%. .%
+%   %
+%  .%
+%v  %
+%  .%
+%%%%%
+Score: -5
+
+newPos : (1, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (1.0, 8.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -5.0
+successorGameState : %%%%%
+%G. %
+%. .%
+% . %
+%. .%
+%   %
+%  .%
+% < %
+%  .%
+%%%%%
+Score: -5
+
+newPos : (2, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (1.0, 8.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -5.0
+successorGameState : %%%%%
+%G. %
+%. .%
+% . %
+%. .%
+%   %
+%v .%
+%   %
+%  .%
+%%%%%
+Score: -5
+
+newPos : (1, 3)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (1.0, 8.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -5.0
+successorGameState : %%%%%
+%G. %
+%. .%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+%^ .%
+%%%%%
+Score: -5
+
+newPos : (1, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (1.0, 8.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -5.0
+successorGameState : %%%%%
+% . %
+%G .%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+%^ .%
+%%%%%
+Score: -6
+
+newPos : (1, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (1.0, 7.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -6.0
+successorGameState : %%%%%
+% . %
+%G .%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+% <.%
+%%%%%
+Score: -6
+
+newPos : (2, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (1.0, 7.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -6.0
+successorGameState : %%%%%
+% . %
+%G .%
+% . %
+%. .%
+%   %
+%  .%
+%v  %
+%  .%
+%%%%%
+Score: -6
+
+newPos : (1, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (1.0, 7.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -6.0
+successorGameState : %%%%%
+% . %
+%.G.%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+%> .%
+%%%%%
+Score: -7
+
+newPos : (1, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (2.0, 7.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -7.0
+successorGameState : %%%%%
+% . %
+%.G.%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+% <.%
+%%%%%
+Score: -7
+
+newPos : (2, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (2.0, 7.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -7.0
+successorGameState : %%%%%
+% . %
+%.G.%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+%  <%
+%%%%%
+Score: 3
+
+newPos : (3, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (2.0, 7.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 3.0
+successorGameState : %%%%%
+% . %
+%.G.%
+% . %
+%. .%
+%   %
+%  .%
+% v %
+%  .%
+%%%%%
+Score: -7
+
+newPos : (2, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 1), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (2.0, 7.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -7.0
+successorGameState : %%%%%
+% . %
+%. .%
+% G %
+%. .%
+%   %
+%  .%
+%   %
+% > %
+%%%%%
+Score: 2
+
+newPos : (2, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (2.0, 6.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 2.0
+successorGameState : %%%%%
+% . %
+%. .%
+% G %
+%. .%
+%   %
+%  .%
+%   %
+%  <%
+%%%%%
+Score: 2
+
+newPos : (3, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (2.0, 6.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 2.0
+successorGameState : %%%%%
+% . %
+%. .%
+% G %
+%. .%
+%   %
+%  .%
+%  v%
+%   %
+%%%%%
+Score: 2
+
+newPos : (3, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (2.0, 6.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 2.0
+successorGameState : %%%%%
+% . %
+%. .%
+%G. %
+%. .%
+%   %
+%  .%
+% > %
+%   %
+%%%%%
+Score: 1
+
+newPos : (2, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (1.0, 6.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 1.0
+successorGameState : %%%%%
+% . %
+%. .%
+%G. %
+%. .%
+%   %
+%  .%
+%  v%
+%   %
+%%%%%
+Score: 1
+
+newPos : (3, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (1.0, 6.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 1.0
+successorGameState : %%%%%
+% . %
+%. .%
+%G. %
+%. .%
+%   %
+%  v%
+%   %
+%   %
+%%%%%
+Score: 11
+
+newPos : (3, 3)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 6.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 11.0
+successorGameState : %%%%%
+% . %
+%. .%
+%G. %
+%. .%
+%   %
+%  .%
+%   %
+%  ^%
+%%%%%
+Score: 1
+
+newPos : (3, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 3), (3, 5), (3, 7)]
+newGhostStates : (1.0, 6.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 1.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%G .%
+%   %
+% > %
+%   %
+%   %
+%%%%%
+Score: 10
+
+newPos : (2, 3)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 5.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 10.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%G .%
+%   %
+%  v%
+%   %
+%   %
+%%%%%
+Score: 10
+
+newPos : (3, 3)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 5.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 10.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%G .%
+%  v%
+%   %
+%   %
+%   %
+%%%%%
+Score: 10
+
+newPos : (3, 4)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 5.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 10.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%G .%
+%   %
+%   %
+%  ^%
+%   %
+%%%%%
+Score: 10
+
+newPos : (3, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 5.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 10.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%G  %
+% > %
+%   %
+%   %
+%%%%%
+Score: 9
+
+newPos : (2, 3)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 4.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 9.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%G  %
+%  v%
+%   %
+%   %
+%%%%%
+Score: 9
+
+newPos : (3, 3)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 4.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 9.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%G v%
+%   %
+%   %
+%   %
+%%%%%
+Score: 9
+
+newPos : (3, 4)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 4.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 9.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%G  %
+%   %
+%  ^%
+%   %
+%%%%%
+Score: 9
+
+newPos : (3, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 4.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 9.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+% G %
+%   %
+% > %
+%   %
+%%%%%
+Score: 8
+
+newPos : (2, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 4.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 8.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+% G %
+%   %
+%  ^%
+%   %
+%%%%%
+Score: 8
+
+newPos : (3, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 4.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 8.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+% G %
+%  v%
+%   %
+%   %
+%%%%%
+Score: 8
+
+newPos : (3, 3)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 4.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 8.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+% G %
+%   %
+%   %
+%  ^%
+%%%%%
+Score: 8
+
+newPos : (3, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 4.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 8.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+% G %
+% > %
+%   %
+%%%%%
+Score: 7
+
+newPos : (2, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 3.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 7.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+% G %
+%  ^%
+%   %
+%%%%%
+Score: 7
+
+newPos : (3, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 3.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 7.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+% Gv%
+%   %
+%   %
+%%%%%
+Score: 7
+
+newPos : (3, 3)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 3.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 7.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+% G %
+%   %
+%  ^%
+%%%%%
+Score: 7
+
+newPos : (3, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 3.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 7.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+% G %
+% > %
+%%%%%
+Score: 6
+
+newPos : (2, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 2.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 6.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+% G %
+%  ^%
+%%%%%
+Score: 6
+
+newPos : (3, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 2.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 6.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+% Gv%
+%   %
+%%%%%
+Score: 6
+
+newPos : (3, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 2.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 6.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+%   %
+% G %
+%%%%%
+Score: -495
+
+newPos : (2, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 1.0)
+newScaredTimes : [0]
+successorGameState.getScore() : -495.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+%   %
+% G^%
+%%%%%
+Score: 5
+
+newPos : (3, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 1.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 5.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+%  v%
+% G %
+%%%%%
+Score: 5
+
+newPos : (3, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 1.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 5.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+%   %
+%G> %
+%%%%%
+Score: 4
+
+newPos : (2, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 1.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 4.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+%   %
+%G ^%
+%%%%%
+Score: 4
+
+newPos : (3, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 1.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 4.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+%  v%
+%G  %
+%%%%%
+Score: 4
+
+newPos : (3, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 1.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 4.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+%G  %
+% > %
+%%%%%
+Score: 3
+
+newPos : (2, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 2.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 3.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+%G  %
+%  ^%
+%%%%%
+Score: 3
+
+newPos : (3, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 2.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 3.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+%G v%
+%   %
+%%%%%
+Score: 3
+
+newPos : (3, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 2.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 3.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%G  %
+%   %
+% > %
+%%%%%
+Score: 2
+
+newPos : (2, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 3.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 2.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%G  %
+%   %
+%  ^%
+%%%%%
+Score: 2
+
+newPos : (3, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 3.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 2.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%G  %
+%  v%
+%   %
+%%%%%
+Score: 2
+
+newPos : (3, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (1.0, 3.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 2.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+% G %
+%   %
+% > %
+%%%%%
+Score: 1
+
+newPos : (2, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 3.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 1.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+% G %
+%   %
+%  ^%
+%%%%%
+Score: 1
+
+newPos : (3, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 3.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 1.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+% G %
+%  v%
+%   %
+%%%%%
+Score: 1
+
+newPos : (3, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 3.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 1.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+% G %
+% > %
+%%%%%
+Score: 0
+
+newPos : (2, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 2.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 0.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+% G %
+%  ^%
+%%%%%
+Score: 0
+
+newPos : (3, 1)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 2.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 0.0
+successorGameState : %%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+% Gv%
+%   %
+%%%%%
+Score: 0
+
+newPos : (3, 2)
+newFood : [(1, 5), (1, 7), (2, 6), (2, 8), (3, 5), (3, 7)]
+newGhostStates : (2.0, 2.0)
+newScaredTimes : [0]
+successorGameState.getScore() : 0.0
+Pacman died! Score: -500
+Average Score: -500.0
+Scores:        -500.0
+Win Rate:      0/1 (0.00)
+Record:        Loss
