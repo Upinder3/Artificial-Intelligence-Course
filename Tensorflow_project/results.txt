@@ -1,0 +1,149 @@
+WARNING:tensorflow:From /mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/datasets.py:69: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+WARNING:tensorflow:From /home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: __init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/models.py:214: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/models.py:285: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/tensorflow_util.py:27: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2019-12-01 00:56:57.062767: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-12-01 00:56:57.073576: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1801000000 Hz
+2019-12-01 00:56:57.074756: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fffec8fbe20 executing computations on platform Host. Devices:
+2019-12-01 00:56:57.074792: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-12-01 00:56:57.081531: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From /mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/solvers.py:24: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/ops/math_grad.py:1250: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/solvers.py:397: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+data:		mnistDataset
+model:		ConvNetModel
+solver:		MinibatchStochasticGradientDescentSolver
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Training...
+Iteration 0 of 500
+    training loss = 10.345207
+    validation loss = 9.682449
+Iteration 100 of 500
+    training loss = 8.041536
+    validation loss = 8.055879
+Iteration 200 of 500
+    training loss = 7.535416
+    validation loss = 7.335541
+Iteration 300 of 500
+    training loss = 7.031867
+    validation loss = 7.000664
+Iteration 400 of 500
+    training loss = 7.078057
+    validation loss = 7.113429
+Computing accuracies
+Validation accuracy: 85.1%
+Test accuracy: 85.6%
+Press enter to exitWARNING:tensorflow:From /mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/datasets.py:69: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+WARNING:tensorflow:From /home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: __init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/models.py:214: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/models.py:285: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/tensorflow_util.py:27: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2019-12-01 00:57:31.696126: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-12-01 00:57:31.707050: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1801000000 Hz
+2019-12-01 00:57:31.708362: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fffcc9f1860 executing computations on platform Host. Devices:
+2019-12-01 00:57:31.708467: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-12-01 00:57:31.715166: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From /mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/solvers.py:24: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/ops/math_grad.py:1250: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/solvers.py:397: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+data:		mnistDataset
+model:		ConvNetModel
+solver:		MinibatchStochasticGradientDescentSolver
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Training...
+Iteration 0 of 500
+    training loss = 10.345207
+    validation loss = 9.336523
+Traceback (most recent call last):
+  File "dataClassifier.py", line 220, in <module>
+    main()
+  File "dataClassifier.py", line 187, in main
+    solver.solve(*(train_data + val_data + [model, pacman_display_callback(train_data)]))
+  File "/mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/solvers.py", line 419, in solve
+    self.display_progress(iter_, train_losses, val_losses)
+  File "/mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/solvers.py", line 210, in display_progress
+    figureTitle="%s: Training and Validation Loss" % self.__class__.__name__)
+  File "/mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/plotUtil.py", line 53, in plotTwoCurves
+    plt.figure(figureIdx)
+  File "/home/upsingh/tensorflow/local/lib/python2.7/site-packages/matplotlib/pyplot.py", line 533, in figure
+    **kwargs)
+  File "/home/upsingh/tensorflow/local/lib/python2.7/site-packages/matplotlib/backend_bases.py", line 161, in new_figure_manager
+    return cls.new_figure_manager_given_figure(num, fig)
+  File "/home/upsingh/tensorflow/local/lib/python2.7/site-packages/matplotlib/backends/_backend_tk.py", line 1046, in new_figure_manager_given_figure
+    window = Tk.Tk(className="matplotlib")
+  File "/usr/lib/python2.7/lib-tk/Tkinter.py", line 1828, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "dataClassifier.py", line 18, in <module>
+    import perceptron
+  File "/mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/perceptron.py", line 18, in <module>
+    import models
+  File "/mnt/u/CSE_471/Project_4/StudentCodeProject4/Studentcode/models.py", line 17, in <module>
+    import tensorflow as tf
+  File "/home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/__init__.py", line 28, in <module>
+    from tensorflow.python import pywrap_tensorflow  # pylint: disable=unused-import
+  File "/home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/__init__.py", line 49, in <module>
+    from tensorflow.python import pywrap_tensorflow
+  File "/home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/pywrap_tensorflow.py", line 58, in <module>
+    from tensorflow.python.pywrap_tensorflow_internal import *
+  File "/home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/pywrap_tensorflow_internal.py", line 28, in <module>
+    _pywrap_tensorflow_internal = swig_import_helper()
+  File "/home/upsingh/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/pywrap_tensorflow_internal.py", line 24, in swig_import_helper
+    _mod = imp.load_module('_pywrap_tensorflow_internal', fp, pathname, description)
+KeyboardInterrupt
+
+[1]+  Stopped                 python dataClassifier.py -m ConvNetModel -s MinibatchStochasticGradientDescentSolver --batch_size 32 --learning_rate 0.00$i --momentum 0.0 --iterations 500 --data mnistDataset
